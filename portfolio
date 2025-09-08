@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matthew Goodman's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #00509e;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin-top: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #ccc;
+        }
+        section h2 {
+            color: #00509e;
+            border-bottom: 3px solid #00509e;
+            padding-bottom: 0.3rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+            gap: 1.2rem;
+        }
+        .project-card {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .project-card h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: #003d7a;
+        }
+        .project-card p {
+            margin: 0.5rem 0;
+        }
+        .project-links a {
+            color: #00509e;
+            text-decoration: none;
+            margin-right: 1rem;
+            font-weight: bold;
+        }
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #222;
+            color: #eee;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        footer a {
+            color: #4db8ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Matthew Goodman</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m Matthew Goodman, an Electrical Engineering and Engineering Physics student with a minor in Mathematics at the University of Central Oklahoma. I enjoy tech projects and working on things that combine theory and practical applications. Welcome to my portfolio website!</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+
+                <div class="project-card">
+                    <h3>Project One: Signal Processing Toolbox</h3>
+                    <p>A toolbox in Python for digital signal processing analysis and filtering of sensor data.</p>
+                    <p><strong>Technologies:</strong> Python, NumPy, SciPy</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/signal-processing-toolbox" target="_blank">GitHub Repo</a>
+                        <a href="#" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Project Two: IoT Home Automation</h3>
+                    <p>Embedded system project automating lighting and temperature with IoT devices.</p>
+                    <p><strong>Technologies:</strong> Arduino, ESP32, MQTT</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/iot-home-automation" target="_blank">GitHub Repo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Project Three: Portfolio Website</h3>
+                    <p>Personal website hosted on GitHub Pages showcasing my projects and resume.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, GitHub Pages</p>
+                    <div class="project-links">
+                        <a href="https://yourusername.github.io" target="_blank">Live Site</a>
+                        <a href="https://github.com/yourusername/portfolio" target="_blank">GitHub Repo</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>You can <a href="resume.pdf" download>download my resume here</a>.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please email me at: <a href="mailto:matthew.goodman@email.com">matthew.goodman@email.com</a></p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a> or check out my <a href="https://github.com/yourusername" target="_blank">GitHub profile</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Matthew Goodman. All rights reserved.</p>
+    </footer>
+</body>
+</html>
